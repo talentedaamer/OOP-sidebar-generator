@@ -28,7 +28,7 @@ function cft_register_sidebar( $sidebar_name = array() ) {
 		 */
 		$args = array(
 			'name'          => $name,
-			'id'            => strtolower( str_replace( ' ', '-', $name ) ),
+			'id'            => $id,
 			'before_widget' => '<div id="%1" class="widget %2">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h3 class="widget-title">',
